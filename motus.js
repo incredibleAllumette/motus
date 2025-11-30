@@ -1,4 +1,4 @@
-// Liste de mots, tu pourras en ajouter plus tard
+// Liste de mots (à ajouter)
 const mots = ["MAIRE","TABLE","NAGER","CHAIR","PLAGE","ROBOT","LAMPE","RUGIR","TIGRE"];
 const solution = mots[Math.floor(Math.random() * mots.length)]; // aléatoire
 let tentatives = 0;
