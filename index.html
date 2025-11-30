@@ -2,10 +2,22 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Motus en ligne</title>
+    <title>Motus / Wordle Français</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Bienvenue sur Motus</h1>
-    <p>Le jeu arrive bientôt... laisse-moi coder.</p>
+
+<h1 class="titre">MOTUS ONLINE</h1>
+
+<div id="grille"></div>
+
+<div class="controls">
+    <input type="text" id="inputMot" maxlength="5" placeholder="Tape un mot de 5 lettres">
+    <button onclick="submitMot()">Valider</button>
+</div>
+
+<p id="message"></p>
+
+<script src="motus.js"></script>
 </body>
 </html>
