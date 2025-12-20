@@ -2,17 +2,34 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Motus / Wordle Français</title>
+    <title>Motus Online</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <h1 class="titre">MOTUS ONLINE</h1>
 
+<!-- Sélecteur de langue -->
+<div id="choixLangue">
+    <label for="langueSelect">Choisissez une langue :</label>
+    <select id="langueSelect">
+        <option value="fr">Français</option>
+        <!-- plus tard : <option value="en">English</option> etc. -->
+    </select>
+</div>
+
+<!-- Menu des niveaux -->
+<div id="menuNiveaux">
+    <p>Sélectionnez un niveau :</p>
+    <div id="listeNiveaux"></div>
+</div>
+
+<!-- Grille du jeu -->
 <div id="grille"></div>
 
+<!-- Zone de saisie -->
 <div class="controls">
-    <input type="text" id="inputMot" maxlength="5" placeholder="Tape un mot de 5 lettres">
+    <input type="text" id="inputMot" placeholder="Tapez le mot">
     <button onclick="submitMot()">Valider</button>
 </div>
 
