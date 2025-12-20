@@ -13,8 +13,6 @@ body {
 #grille {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(5, 60px);
-    grid-template-rows: repeat(6, 60px);
     gap: 8px;
     margin-top: 20px;
     margin-bottom: 20px;
